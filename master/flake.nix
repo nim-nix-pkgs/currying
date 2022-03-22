@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-currying-master.flake = false;
+  inputs.src-currying-master.ref   = "refs/heads/master";
   inputs.src-currying-master.owner = "t8m8";
-  inputs.src-currying-master.ref   = "master";
   inputs.src-currying-master.repo  = "currying";
   inputs.src-currying-master.type  = "github";
   
