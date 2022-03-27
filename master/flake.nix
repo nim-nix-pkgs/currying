@@ -11,6 +11,7 @@
   inputs.src-currying-master.ref   = "refs/heads/master";
   inputs.src-currying-master.owner = "t8m8";
   inputs.src-currying-master.repo  = "currying";
+  inputs.src-currying-master.dir   = "";
   inputs.src-currying-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
